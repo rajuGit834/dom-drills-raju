@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stepper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <h3>Stepper</h3>
+    </header>
+
+    <div class="container">
+        <div class="steps">
+            <div class="contact">
+                <div class="step-number" id="step-1"><p class="step">1</p></div>
+            </div>
+            <div class="lines"></div>
+            <div class="shipping">
+                <div class="step-number" id="step-2"><p class="step">2</p></div>
+            </div>
+            <div class="lines"></div>
+            <div class="payment">
+                <div class="step-number" id="step-3"><p class="step">3</p></div>
+            </div>
+            <div class="lines"></div>
+            <div class="delivered">
+                <div class="step-number" id="step-4"><p class="step">4</p></div>
+            </div>
+        </div>
+        <div class="process-name"> 
+            <div class="contents contact-step"><p>Contact Details</p></div>
+            <div class="contents shipping-step"><p>Shipping Address</p></div>
+            <div class="contents payment-step"><p>Payment</p></div>
+            <div class="contents delivered-step"><p>Delivered</p></div>
+        </div>
+        <div class="output" id="output-box"><h3>Add contact details for further communications</h3></div>
+        <div class="button-container">
+            <button class="prev" id="prev-btn" disabled>Previous</button>
+            <button class="next" id="next-btn">Next</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
